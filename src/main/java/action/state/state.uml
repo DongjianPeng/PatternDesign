@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="223.0" y="0.0">action.state.structure.State</node>
+    <node x="0.0" y="199.0">action.state.structure.Context</node>
+    <node x="0.0" y="102.0">action.state.structure.ConcreteStateC</node>
+    <node x="446.0" y="102.0">action.state.structure.ConcreteStateB</node>
+    <node x="223.0" y="102.0">action.state.structure.ConcreteStateA</node>
+    <node x="213.0" y="199.0">action.state.structure.TestEntry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="action.state.structure.ConcreteStateA" target="action.state.structure.State">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="action.state.structure.ConcreteStateC" target="action.state.structure.State">
+      <point x="0.0" y="-26.0" />
+      <point x="101.5" y="77.0" />
+      <point x="256.8333333333333" y="77.0" />
+      <point x="-67.66666666666669" y="26.0" />
+    </edge>
+    <edge source="action.state.structure.ConcreteStateB" target="action.state.structure.State">
+      <point x="0.0" y="-26.0" />
+      <point x="547.5" y="77.0" />
+      <point x="392.1666666666667" y="77.0" />
+      <point x="67.66666666666669" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="219.0" y="253.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

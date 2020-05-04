@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="392.5" y="113.5">structure.decorator.structure.ConcreteComponent</node>
+    <node x="293.75" y="0.0">structure.decorator.structure.Component</node>
+    <node x="195.0" y="227.0">structure.decorator.structure.ConcreteDecoratorA</node>
+    <node x="390.0" y="227.0">structure.decorator.structure.ConcreteDecoratorB</node>
+    <node x="0.0" y="227.0">structure.decorator.structure.ConcreteDecoratorC</node>
+    <node x="0.0" y="324.0">structure.decorator.structure.TestEntry</node>
+    <node x="192.5" y="102.0">structure.decorator.structure.Decorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structure.decorator.structure.Decorator" target="structure.decorator.structure.Component">
+      <point x="0.0" y="-37.5" />
+      <point x="282.5" y="77.0" />
+      <point x="337.5" y="77.0" />
+      <point x="-43.75" y="26.0" />
+    </edge>
+    <edge source="structure.decorator.structure.ConcreteDecoratorA" target="structure.decorator.structure.Decorator">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="structure.decorator.structure.ConcreteComponent" target="structure.decorator.structure.Component">
+      <point x="0.0" y="-26.0" />
+      <point x="480.0" y="77.0" />
+      <point x="425.0" y="77.0" />
+      <point x="43.75" y="26.0" />
+    </edge>
+    <edge source="structure.decorator.structure.ConcreteDecoratorC" target="structure.decorator.structure.Decorator">
+      <point x="0.0" y="-26.0" />
+      <point x="87.5" y="202.0" />
+      <point x="222.5" y="202.0" />
+      <point x="-60.0" y="37.5" />
+    </edge>
+    <edge source="structure.decorator.structure.ConcreteDecoratorB" target="structure.decorator.structure.Decorator">
+      <point x="0.0" y="-26.0" />
+      <point x="477.5" y="202.0" />
+      <point x="342.5" y="202.0" />
+      <point x="60.0" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

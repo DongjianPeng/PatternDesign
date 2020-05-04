@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="128.25" y="0.0">structure.flyweight.structure.Flyweight</node>
+    <node x="0.0" y="342.0">structure.flyweight.structure.TestEntry</node>
+    <node x="0.0" y="199.0">structure.flyweight.structure.FlyWeightFactory</node>
+    <node x="243.0" y="102.0">structure.flyweight.structure.ConcreteFlyweight</node>
+    <node x="0.0" y="102.0">structure.flyweight.structure.UnsharedConcreteFlyweight</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structure.flyweight.structure.ConcreteFlyweight" target="structure.flyweight.structure.Flyweight">
+      <point x="0.0" y="-26.0" />
+      <point x="341.0" y="77.0" />
+      <point x="275.25" y="77.0" />
+      <point x="49.0" y="26.0" />
+    </edge>
+    <edge source="structure.flyweight.structure.UnsharedConcreteFlyweight" target="structure.flyweight.structure.Flyweight">
+      <point x="0.0" y="-26.0" />
+      <point x="111.5" y="77.0" />
+      <point x="177.25" y="77.0" />
+      <point x="-49.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

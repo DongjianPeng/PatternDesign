@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="88.58541666666665" y="0.0">structure.composite.structure.Component</node>
+    <node x="0.0" y="192.0">structure.composite.structure.Composite</node>
+    <node x="73.55833333333334" y="384.0">structure.composite.structure.TestEntry</node>
+    <node x="251.0" y="203.5">structure.composite.structure.Leaf</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structure.composite.structure.Composite" target="structure.composite.structure.Component">
+      <point x="0.0" y="-71.0" />
+      <point x="115.5" y="172.0" />
+      <point x="153.68541666666664" y="172.0" />
+      <point x="-43.400000000000006" y="71.0" />
+    </edge>
+    <edge source="structure.composite.structure.TestEntry" target="structure.composite.structure.Leaf">
+      <point x="65.33333333333331" y="-26.0" />
+      <point x="236.89166666666665" y="359.0" />
+      <point x="359.5" y="359.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="structure.composite.structure.Leaf" target="structure.composite.structure.Component">
+      <point x="-54.25" y="-59.5" />
+      <point x="305.25" y="172.0" />
+      <point x="240.48541666666668" y="172.0" />
+      <point x="43.400000000000034" y="71.0" />
+    </edge>
+    <edge source="structure.composite.structure.TestEntry" target="structure.composite.structure.Composite">
+      <point x="0.0" y="-26.0" />
+      <point x="171.55833333333334" y="359.0" />
+      <point x="173.25" y="359.0" />
+      <point x="57.75" y="71.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
