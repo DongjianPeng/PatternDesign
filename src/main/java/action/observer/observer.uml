@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="187.0" y="346.0">action.observer.structure.ConcreteObserver1</node>
+    <node x="374.0" y="346.0">action.observer.structure.ConcreteObserver3</node>
+    <node x="0.0" y="346.0">action.observer.structure.ConcreteObserver2</node>
+    <node x="0.0" y="443.0">action.observer.structure.TestEntry</node>
+    <node x="193.5" y="244.0">action.observer.structure.Observer</node>
+    <node x="35.5" y="169.0">action.observer.structure.ConcreteSubject1</node>
+    <node x="0.0" y="0.0">action.observer.structure.Subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="action.observer.structure.ConcreteSubject1" target="action.observer.structure.Subject">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="action.observer.structure.ConcreteObserver1" target="action.observer.structure.Observer">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="action.observer.structure.ConcreteObserver3" target="action.observer.structure.Observer">
+      <point x="0.0" y="-26.0" />
+      <point x="457.5" y="321.0" />
+      <point x="321.83333333333337" y="321.0" />
+      <point x="51.33333333333337" y="26.0" />
+    </edge>
+    <edge source="action.observer.structure.ConcreteObserver2" target="action.observer.structure.Observer">
+      <point x="0.0" y="-26.0" />
+      <point x="83.5" y="321.0" />
+      <point x="219.16666666666669" y="321.0" />
+      <point x="-51.333333333333314" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="401.5" y="211.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

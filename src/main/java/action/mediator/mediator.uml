@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="267.0">action.mediator.structure.Mediator</node>
+    <node x="304.0" y="267.0">action.mediator.structure.TestEntry</node>
+    <node x="286.0" y="125.0">action.mediator.structure.ConcreteColleague2</node>
+    <node x="0.0" y="125.0">action.mediator.structure.ConcreteColleague1</node>
+    <node x="174.5" y="0.0">action.mediator.structure.Colleague</node>
+    <node x="0.0" y="369.0">action.mediator.structure.ConcreteMediator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="action.mediator.structure.ConcreteMediator" target="action.mediator.structure.Mediator">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="action.mediator.structure.ConcreteColleague2" target="action.mediator.structure.Colleague">
+      <point x="0.0" y="-48.5" />
+      <point x="419.0" y="100.0" />
+      <point x="326.75" y="100.0" />
+      <point x="50.75" y="37.5" />
+    </edge>
+    <edge source="action.mediator.structure.ConcreteColleague1" target="action.mediator.structure.Colleague">
+      <point x="0.0" y="-48.5" />
+      <point x="133.0" y="100.0" />
+      <point x="225.25" y="100.0" />
+      <point x="-50.75" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="282.0" y="235.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

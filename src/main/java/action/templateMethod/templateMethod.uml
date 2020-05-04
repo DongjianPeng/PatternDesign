@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="265.0" y="146.0">action.templateMethod.structure.ConcreteClassA</node>
+    <node x="0.0" y="265.0">action.templateMethod.structure.TestEntry</node>
+    <node x="0.0" y="146.0">action.templateMethod.structure.ConcreteClassB</node>
+    <node x="132.5" y="0.0">action.templateMethod.structure.AbstractClass</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="action.templateMethod.structure.ConcreteClassA" target="action.templateMethod.structure.AbstractClass">
+      <point x="0.0" y="-37.0" />
+      <point x="387.5" y="121.0" />
+      <point x="316.25" y="121.0" />
+      <point x="61.25" y="48.0" />
+    </edge>
+    <edge source="action.templateMethod.structure.ConcreteClassB" target="action.templateMethod.structure.AbstractClass">
+      <point x="0.0" y="-37.0" />
+      <point x="122.5" y="121.0" />
+      <point x="193.75" y="121.0" />
+      <point x="-61.25" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

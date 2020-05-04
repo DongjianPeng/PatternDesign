@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="464.0">action.visitor.structure.TestEntry</node>
+    <node x="223.0" y="345.0">action.visitor.structure.ConcreteElementA</node>
+    <node x="0.0" y="345.0">action.visitor.structure.ConcreteElementB</node>
+    <node x="391.0" y="124.0">action.visitor.structure.ConcreteVisitor2</node>
+    <node x="195.5" y="0.0">action.visitor.structure.Visitor</node>
+    <node x="0.0" y="124.0">action.visitor.structure.ConcreteVisitor1</node>
+    <node x="111.5" y="243.0">action.visitor.structure.Element</node>
+    <node x="471.0" y="243.0">action.visitor.structure.ObjectStructure</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="action.visitor.structure.ConcreteElementB" target="action.visitor.structure.Element">
+      <point x="0.0" y="-37.0" />
+      <point x="101.5" y="320.0" />
+      <point x="162.25" y="320.0" />
+      <point x="-50.75" y="26.0" />
+    </edge>
+    <edge source="action.visitor.structure.ConcreteElementA" target="action.visitor.structure.Element">
+      <point x="0.0" y="-37.0" />
+      <point x="324.5" y="320.0" />
+      <point x="263.75" y="320.0" />
+      <point x="50.75" y="26.0" />
+    </edge>
+    <edge source="action.visitor.structure.ConcreteVisitor2" target="action.visitor.structure.Visitor">
+      <point x="0.0" y="-37.0" />
+      <point x="576.5" y="99.0" />
+      <point x="473.75" y="99.0" />
+      <point x="92.75" y="37.0" />
+    </edge>
+    <edge source="action.visitor.structure.ConcreteVisitor1" target="action.visitor.structure.Visitor">
+      <point x="0.0" y="-37.0" />
+      <point x="185.5" y="99.0" />
+      <point x="288.25" y="99.0" />
+      <point x="-92.75" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
